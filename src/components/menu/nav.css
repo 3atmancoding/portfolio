@@ -1,0 +1,9 @@
+.navMenu {
+  margin: 5% 14% 0;
+}
+.navMenu > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #292428;
+  padding: 0 3% 0;
+}
