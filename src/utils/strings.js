@@ -1,5 +1,5 @@
  const constants ={
-     'hey': 'Hey! ',
+    'hey': 'Hey! ',
     'me': 'I’m Utkarsh',
     'designer':' designer, developer',
     'illustrator':' illustrator ',
