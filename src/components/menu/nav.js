@@ -8,7 +8,7 @@ const Nav = () => {
     <a href = {cvFile} download>Download CV</a>
     
     <a href = '#'>About</a>
-    <a href ='mailto:someone@some.com'>Hire me</a>
+    <a href ='mailto:hello@utkupadhyay.com'>Hire me</a>
     </div>
     </>
     )
