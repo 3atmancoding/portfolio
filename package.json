@@ -13,7 +13,7 @@
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "http://3atmancoding.github.io/portfolio",
+  "homepage": "https://utkupadhyay.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
