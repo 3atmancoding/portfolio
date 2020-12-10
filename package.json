@@ -34,6 +34,9 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "*": "prettier --write"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
