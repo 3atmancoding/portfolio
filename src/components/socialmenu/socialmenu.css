@@ -31,6 +31,7 @@
   .socialMenuContainer {
     display: flex;
     margin: 0;
+    max-width: 100%;
   }
   .wrapper {
     display: flex;
