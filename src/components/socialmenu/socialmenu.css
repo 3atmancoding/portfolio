@@ -30,6 +30,7 @@
 @media only screen and (max-width: 676px) {
   .socialMenuContainer {
     display: flex;
+    margin: 0;
   }
   .wrapper {
     display: flex;
