@@ -7,3 +7,13 @@
   color: #292428;
   padding: 0 3% 0;
 }
+
+@media only screen and (max-width: 676px) {
+  .navMenu {
+    margin: 63% 14% 0;
+  }
+  .navMenu a {
+    display: block;
+    margin-top: 40%;
+  }
+}

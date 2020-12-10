@@ -16,3 +16,28 @@
   text-align: right;
   padding-right: 7%;
 }
+
+@media only screen and (min-width: 677px) and (max-width: 1024px) {
+  .socialMenuContainer {
+    display: flex;
+  }
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+}
+@media only screen and (max-width: 676px) {
+  .socialMenuContainer {
+    display: flex;
+  }
+  .wrapper {
+    display: flex;
+    width: 100vw;
+    margin-top: 25%;
+    justify-content: center;
+  }
+  .wrapper a {
+    padding: 0 4%;
+  }
+}

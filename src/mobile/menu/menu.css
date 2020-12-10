@@ -1,0 +1,70 @@
+.mobile-icon,
+.close-icon {
+  width: 23px;
+  height: 23px;
+  margin: 5% 5%;
+  z-index: 9999;
+  position: absolute;
+  transition: 0.4s;
+}
+.close-icon {
+  /* margin-left: 30%; */
+  -webkit-animation: spin 0.4s linear infinite;
+  -moz-animation: spin 0.4s linear infinite;
+  animation: spin 0.2s linear;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(180deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+.sidebar {
+  margin-top: -2%;
+  width: 55%;
+  height: 100vh;
+  background-color: #e2d9cb;
+  z-index: 9999;
+  position: absolute;
+  -webkit-animation: slideIn 0s forwards;
+  -moz-animation: slideIn 0.5s forwards;
+  animation: slideIn 0.2s forwards;
+
+  /* transform: translateX(-100%); */
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}

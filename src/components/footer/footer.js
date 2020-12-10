@@ -1,5 +1,5 @@
 import React from 'react'
-import '../homepage.css'
+import '../home/homepage.css'
 const Footer = () =>{
     return <footer className="footer">Designed and developed in India</footer>
 }
