@@ -29,7 +29,7 @@ span::selection {
   display: flex;
 }
 .row-2,
-.row4 {
+.row-4 {
   display: none;
 }
 .column {
