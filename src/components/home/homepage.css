@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .hello {
   font-weight: 700;
@@ -55,7 +55,7 @@ span::selection {
     display: none;
   }
   .row-2,
-  .row4 {
+  .row-4 {
     display: flex;
   }
   .hello {
