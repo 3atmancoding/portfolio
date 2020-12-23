@@ -4,8 +4,7 @@
 }
 .wrapper {
   display: flex;
-  margin-left: auto;
-  width: calc(100% - 326px);
+  margin: 0 auto;
 }
 .wrapper a {
   padding: 0 7% 0 0;
@@ -36,7 +35,7 @@
   .wrapper {
     display: flex;
     width: 100vw;
-    margin-top: 25%;
+    margin-top: 12%;
     justify-content: center;
   }
   .wrapper a {
