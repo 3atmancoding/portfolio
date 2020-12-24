@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import Hello from '../summary/hello';
-import Footer from '../footer/footer';
-import Nav from '../menu/nav';
-import MobMenu from '../../mobile/menu/menu';
-import Social from '../socialmenu/socialmenu';
-import Description from '../description/description';
-import './homepage.css';
+import React, { useEffect } from "react";
+import Hello from "../summary/hello";
+import Footer from "../footer/footer";
+import Nav from "../menu/nav";
+import MobMenu from "../../mobile/menu/menu";
+import Social from "../socialmenu/socialmenu";
+import Description from "../description/description";
+import "./homepage.css";
 
 const Home = () => {
   useEffect(() => {
-    document.body.style.backgroundColor = '#faf6f0';
+    document.body.style.backgroundColor = "#faf6f0";
   }, []);
   return (
     <>
@@ -34,8 +34,8 @@ const Home = () => {
         <div className="row-4">
           <Social />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };
