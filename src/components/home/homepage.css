@@ -7,12 +7,9 @@
   vertical-align: baseline;
   background: transparent;
 }
-/* html,
+
 body {
-  min-height: 100%;
-} */
-body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .container {
   width: 80%;
@@ -106,13 +103,6 @@ span::selection {
     background: #ff6b33;
     color: #000;
   }
-  /* .footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    left: 0;
-    right: 0;
-  } */
 }
 
 @media only screen and (min-width: 677px) and (max-width: 1024px) {
@@ -126,6 +116,6 @@ span::selection {
     display: none;
   }
   .hello {
-    margin: 23% 8% 8%;
+    margin: 18% 8% 8%;
   }
 }
